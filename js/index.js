@@ -43,6 +43,8 @@ function showPosition(position) {
     kelvin = JSON.stringify(json.main.temp);
     celsius = kelvin - 273.15;
     fahrh = kelvin * 1.8 - 459.67;
+    celsius = (parseInt(celsius,10));
+    fahrh = (parseInt(fahrh,10));
     y.innerHTML = celsius + "°";
     document.getElementById("temp").style.visibility = "visible";
     

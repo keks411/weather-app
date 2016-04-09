@@ -13,14 +13,6 @@ h1, h4 {
 #getit {
   text-align:center;
 }
-#buttonw {
-  position:fixed;
-  margin-left:-55px;
-}
-#temp {
-  position:fixed;
-  margin-left:60px;
-}
 #icon {
   text-align:center;
   visibility:hidden;
